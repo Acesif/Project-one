@@ -5,8 +5,8 @@
 --Soft-violet : hsl(277, 64%, 61%);
 
 --White: hsl(0, 0%, 100%);
---Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
---Slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+--Slightly-transparent-white-p: hsla(0, 0%, 100%, 0.75);
+--Slightly-transparent-white-sta: hsla(0, 0%, 100%, 0.6);
 }
 *{
     margin: 0;
@@ -39,6 +39,7 @@ body{
     padding: 1.5rem 1.2rem 2.5rem 1.2rem;
     text-align: center;
     word-spacing: 0.4rem;
+    color: var(--Slightly-transparent-white-p);
 }
 .container .card ul li{
     padding: 0.2rem;
@@ -69,6 +70,7 @@ body{
     list-style: none;
     text-transform: uppercase;
     font-size: 0.8rem;
+    color: var(--Slightly-transparent-white-sta);
 }
 .container .card ul li span{
     display: block;
