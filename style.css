@@ -133,3 +133,28 @@ body{
     }
 
 }
+@media (max-height:770px){
+    .container{
+        overflow: hidden;
+    }
+    .container .picture{
+        min-height: 200px;
+    }
+    .container .card h1{
+        font-size: 1.5rem;
+        margin-bottom: 0px;
+    }
+    .container .card p{
+        font-size: 0.8em;
+        padding-bottom: 1rem;
+    }
+    .container .card ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .container .card ul li{
+        padding-right: 20px;
+    }
+}
